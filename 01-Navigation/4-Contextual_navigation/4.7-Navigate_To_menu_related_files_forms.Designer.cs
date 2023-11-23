@@ -1,4 +1,6 @@
 ﻿using System.Drawing;
+using Point = System.Windows.Point;
+using Size = System.Windows.Size;
 
 namespace JetBrains.ReSharper.Koans.Navigation
 {
@@ -37,9 +39,9 @@ namespace JetBrains.ReSharper.Koans.Navigation
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(663, 76);
+            this.label1.Size = new Size(663, 76);
             this.label1.TabIndex = 0;
             this.label1.Text = "Press F7 to edit code";
             // 
@@ -47,7 +49,7 @@ namespace JetBrains.ReSharper.Koans.Navigation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 98);
+            this.ClientSize = new Size(678, 98);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
